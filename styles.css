@@ -1,0 +1,9 @@
+.border {
+    border: 1px solid red;
+}
+header {
+    height 100%;
+    width: 100%;
+    /* background-image: THIS WILL BE A URL */
+    font-family:'Zen Dots', cursive;
+}
