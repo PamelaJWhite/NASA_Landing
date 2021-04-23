@@ -1,9 +1,73 @@
-.border {
+
+/*body {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}*/
+/*.border {
     border: 1px solid red;
-}
+} */
 header {
-    height 100%;
-    width: 100%;
-    /* background-image: THIS WILL BE A URL */
+    height: 450px;
+    width: 850px;
+    color: white;
     font-family:'Zen Dots', cursive;
+    background-image: url('milky-way-2695569__340.jpg');
+    background-repeat: no-repeat;
+  background-size: 850px 450px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size: 100px;
+}
+
+.main {
+    height: 324;
+    width: 850px; 
+}
+
+.panels {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(226, 225, 225);
+    height: 324px;
+    margin: 20px 0;
+}
+
+.panelOne, .panelTwo, .panelThree{
+    width: 270px;
+    height: 324px;
+}
+
+h2, p, form {
+    padding: 0 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #585858;
+    color: white;
+    padding: 5px 0px;
+    border: none;
+  }
+  .submit {
+      font-weight: bold;
+      font-size: ;
+  }
+  
+p, form {
+    font-weight:lighter;
+}
+.message {
+    height: 80px;  
 }
